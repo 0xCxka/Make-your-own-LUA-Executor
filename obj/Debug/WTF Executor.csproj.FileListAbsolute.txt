@@ -1,0 +1,18 @@
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\WTF Executor.exe.config
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\WTF Executor.exe
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\WTF Executor.pdb
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF_Executor.Form1.resources
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF_Executor.Properties.Resources.resources
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.csproj.GenerateResource.cache
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.csproj.CoreCompileInputs.cache
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.exe
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.pdb
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\FastColoredTextBox.dll
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.csproj.CopyComplete
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\WeAreDevs_API.dll
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\WTF Executor.exe.manifest
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\bin\Debug\WTF Executor.application
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.csproj.AssemblyReference.cache
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.TrustInfo.xml
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.exe.manifest
+C:\Users\Melissa\Desktop\Cheats\WTF Executor\WTF Executor\WTF Executor\obj\Debug\WTF Executor.application

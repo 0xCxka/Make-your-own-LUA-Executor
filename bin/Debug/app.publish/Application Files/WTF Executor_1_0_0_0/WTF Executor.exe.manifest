@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WTF Executor.exe" version="1.0.0.0" publicKeyToken="e1ccbbb7276d0422" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="wtfspoofer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WTF Executor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WTF Executor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+             nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            La spécification de l'élément requestedExecutionLevel désactive la virtualisation de fichiers et du Registre. 
+            Supprimez cet élément si votre application a besoin de la virtualisation pour des
+            raisons de compatibilité descendante.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FastColoredTextBox.dll" size="332800">
+      <assemblyIdentity name="FastColoredTextBox" version="2.16.26.0" publicKeyToken="FB8AA12B994EF61B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aNDkRMCydVLSy4ZQHct9s/1kuC2WbpcI2wQI7BujjHk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WeAreDevs_API.dll" size="622080">
+      <assemblyIdentity name="WeAreDevs_API" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>e6D/pJ1LGrWbmxKT+vW9AhqxohcsIXLiIEKrcLNInrQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WTF Executor.exe" size="123888">
+      <assemblyIdentity name="WTF Executor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>M6/xcRIZVn9flTQi1kfNmb/j6GJ574z/VkC0PSwBhJE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WTF Executor.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eSEJjkfolEEv39DK/g+IzGhJd0CZjqwXxowAEpBp2AM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="wtfspoofer.ico" size="17737">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oKGi8vghxcNAxJR26NQTFD/ln/yisupJSEftwmAv/6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Liste des versions de Windows pour lesquelles cette application a été testée,
+           et sur lesquelles elle doit fonctionner. Décommentez éléments appropriés,
+           et Windows va automatiquement sélectionner l'environnement le plus compatible. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-QRVV07T\Melissa" issuerKeyHash="5648b12b4e297321c53cd693509dd693929b1092" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>12p5EHGtN7QbqeTwTD5t11nrsEzwt2drfg2R3NO/las=</DigestValue></Reference></SignedInfo><SignatureValue>POG3mJ1kAvuIELhrKE1dGHxHIwMNfQqi2KV79WW8NMBtkbB9y1uTvUD+/YwDTVWRmIlt0ywHR3UZoK0WuMJZDo0agVvebNZMtmnG4a5lSVNDFhdOq5KZemnHVRRvzihiOH/nriS306dXTlOPctpXTJUX2PAwaJ+UwWGCWy9DrBM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2FiR3JzB93Jm2NvgDepPP1u8zl9x+weYD8NTkKgz9f5kI/B3sqP0ml6JmbDTZxd88X4PtYdWN6ORDxWC5ihqktgk5pWgYtPJyUPhcIYHAn6J0CtWhcIkVqdsp71HngxYFbr0K1RZeoeTtF/3F28kjGvrO6dEiNVUZCN8DvBJK9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab95bfd3dc910d7e6b67b7f04cb0eb59d76d3e4cf0e4a91bb437ad7110796ad7" Description="" Url=""><as:assemblyIdentity name="WTF Executor.exe" version="1.0.0.0" publicKeyToken="e1ccbbb7276d0422" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QRVV07T\Melissa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9U5E3clC01QG/H0baeIjAi+8MEMx2GF4wwm0kAEasKI=</DigestValue></Reference></SignedInfo><SignatureValue>qTmlidEGSUYBVgZnPxWWrtDMZ6UTDZiozQSgqU0KkLzvddfGb6dy/FewlJozGFjfROqKFeCA6N+n6jMD7LjD97EtLEMgn5MXJqp5ublxJLPoz7tFK/S45kJBBaCa4kCDyR+ftEI+y54ZbVWFPzPwo0Zwx6XjA5fb38fEm3FOcjM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2FiR3JzB93Jm2NvgDepPP1u8zl9x+weYD8NTkKgz9f5kI/B3sqP0ml6JmbDTZxd88X4PtYdWN6ORDxWC5ihqktgk5pWgYtPJyUPhcIYHAn6J0CtWhcIkVqdsp71HngxYFbr0K1RZeoeTtF/3F28kjGvrO6dEiNVUZCN8DvBJK9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQMkXu01+IPINKXbgCdK8VTDANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFEAUgBWAFYAMAA3AFQAXABNAGUAbABpAHMAcwBhMB4XDTIyMTIzMTIyMTE1NFoXDTI0MDEwMTA0MTE1NFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBRAFIAVgBWADAANwBUAFwATQBlAGwAaQBzAHMAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2FiR3JzB93Jm2NvgDepPP1u8zl9x+weYD8NTkKgz9f5kI/B3sqP0ml6JmbDTZxd88X4PtYdWN6ORDxWC5ihqktgk5pWgYtPJyUPhcIYHAn6J0CtWhcIkVqdsp71HngxYFbr0K1RZeoeTtF/3F28kjGvrO6dEiNVUZCN8DvBJK9ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCrvnnt9tnfSADuiG9PP5xZKVn3HqqbypE+PSYfSO4L8I24cMLXhs4k2x6rSE03HlU+j5jKejITTglJbFVHyQodWWOmkSDxbHxUc80deOhLhVXI3B8aKPlifh2XNnDX5Go+uCuNi+uBKbTtrwO1S3ugZfC1W2Vm25RD3geFqK2V6A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
